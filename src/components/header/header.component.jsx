@@ -20,18 +20,20 @@ import {
 const Header = ({ currentUser, hidden }) => (
   <HeaderContainer>
     <LogoContainer to='/'>
-      <Logo className='logo' />
+      <div className='logo' >
+        <span>NS apparel</span>
+      </div>
     </LogoContainer>
     <OptionsContainer>
+      <OptionLink to='/'>HOME</OptionLink>
       <OptionLink to='/shop'>SHOP</OptionLink>
-      <OptionLink to='/shop'>CONTACT</OptionLink>
       {currentUser ? (
         <OptionLink as='div' onClick={() => auth.signOut()}>
           SIGN OUT
         </OptionLink>
       ) : (
-        <OptionLink to='/signin'>SIGN IN</OptionLink>
-      )}
+          <OptionLink to='/signin'>SIGN IN</OptionLink>
+        )}
       <CartIcon />
     </OptionsContainer>
     {hidden ? null : <CartDropdown />}
