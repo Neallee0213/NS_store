@@ -39,8 +39,38 @@
         a{
             color:white;
         }
+    }@media screen and (max-width: 768px){
+        h2{
+            font-size: 5rem;
+        }
+        h4{
+            margin-bottom:50px; 
+            font-size: 4rem;
+            text-align: center;
+        }
+        p{
+            
+            font-size: 1rem;
+            
+        }
     }
+    @media screen and (max-width: 425px){
+        h2{
+            font-size: 5rem;
+        }
+        h4{
+            margin-bottom:50px; 
+            font-size: 3rem;
+            text-align: center;
+        }
+        p{
+            
+            font-size: 1rem;
+            
+        }
+       }
 }
+
 .banner, .banner2{
     -webkit-background-size: cover;
     background-size: cover;
@@ -71,4 +101,36 @@
             color:white;
         }
     }   
+    @media screen and (max-width: 768px){
+        h2{
+            font-size: 6rem;
+        }
+        h4{
+            margin-bottom:50px; 
+            font-size: 3rem;
+            text-align: center;
+        }
+        p{
+            
+            font-size: 1rem;
+            margin-right:auto;
+            
+        }
+       }
+    @media screen and (max-width: 425px){
+        h2{
+            font-size: 2rem;
+        }
+        h4{
+            margin-bottom:50px; 
+            font-size: 3rem;
+            text-align: center;
+        }
+        p{
+            
+            font-size: 1rem;
+            margin-right:auto;
+            
+        }
+       }
 }

@@ -16,11 +16,14 @@ export const HeaderContainer = styled.div`
 
 export const LogoContainer = styled(Link)`
   height: 100%;
-  width: 70px;
+  width: 170px;
   padding: 25px;
   font-size: 15px;
+  align-items:center;
+  justify-content:center;
+  display:flex;
   @media screen and (max-width: 800px){
-   width: 50px;
+   width: 100px;
    padding: 0; 
   }
 `;
@@ -33,6 +36,7 @@ export const OptionsContainer = styled.div`
   justify-content: flex-end;
   @media screen and (max-width: 800px){
    width: 80%; 
+   font-size:12px;
   }
 `;
 
