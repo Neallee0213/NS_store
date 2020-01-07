@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
-
+import Footer from './components/footer/footer'
 import { GlobalStyle } from './global.styles';
 
 import HomePage from './pages/homepage/homepage.component';
@@ -64,6 +64,7 @@ class App extends React.Component {
             }
           />
         </Switch>
+        <Footer />
       </div>
     );
   }

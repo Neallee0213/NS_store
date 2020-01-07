@@ -1,3 +1,6 @@
+import newItem from '../../assets/newItem.png'
+import women from '../../assets/women.jpg'
+import men from '../../assets/men.jpg'
 const INITIAL_STATE = {
   sections: [
     {
@@ -20,15 +23,19 @@ const INITIAL_STATE = {
     },
     {
       title: 'womens',
-      imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
-      size: 'large',
+      imageUrl: women,
       id: 4,
       linkUrl: 'shop/womens'
     },
     {
+      title: 'new',
+      imageUrl: newItem,
+      id: 6,
+      linkUrl: 'shop/new'
+    },
+    {
       title: 'mens',
-      imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
-      size: 'large',
+      imageUrl: men,
       id: 5,
       linkUrl: 'shop/mens'
     }
