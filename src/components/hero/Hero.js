@@ -46,7 +46,8 @@ const Hero = () => {
                             <h4>over $1 free shipping</h4>
                         </Fade>
                         <Fade right delay={400}>
-                            <p><a href="/shop">shop now</a></p>
+                            <p><a href="/shop">shop now</a>
+                            </p>
                         </Fade>
                     </div>
                 </div>
