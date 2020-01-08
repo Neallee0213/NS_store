@@ -1,0 +1,36 @@
+.container{
+    padding: 20px 0;
+}
+.shipping {
+    
+    width:100%;
+    
+    position: relative;
+    border: 1px solid black;  
+    // margin: 20px;
+    .jumbot{
+        padding:30px;
+        .btn-col{
+            margin: auto;
+            button{
+                color: black;
+                
+            }
+            button:hover{
+                color: white;
+                background: #26272b;
+            }
+        }
+    }
+  }
+  .shipping:after {
+   content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 3px;
+  left: 3px;
+  right: 3px;
+  bottom: 3px;
+  border: 1px solid black;
+  }
+  

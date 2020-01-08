@@ -22,6 +22,10 @@ export const LogoContainer = styled(Link)`
   align-items:center;
   justify-content:center;
   display:flex;
+  &:hover{
+    color:black;
+    text-decoration:none;
+    }
   @media screen and (max-width: 800px){
    width: 100px;
    padding: 0; 
@@ -43,4 +47,8 @@ export const OptionsContainer = styled.div`
 export const OptionLink = styled(Link)`
   padding: 10px 15px;
   cursor: pointer;
+  &:hover{
+    color:black;
+    text-decoration:none;
+    }
 `;

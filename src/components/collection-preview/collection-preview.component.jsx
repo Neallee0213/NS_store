@@ -5,7 +5,7 @@ import CollectionItem from '../collection-item/collection-item.component';
 import './collection-preview.styles.scss';
 
 const CollectionPreview = ({ title, items, history, routeName }) => (
-  <div className='collection-preview'>
+  <div className='collection-preview container-fluid'>
     <h1 className='title'>{title.toUpperCase()}</h1>
     <div
       className="view-more"
